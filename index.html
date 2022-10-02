@@ -1,54 +1,47 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Javascript activity</title>
+<style>
+body{
+
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 10px;
+	border-width:40px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	
+	color:red!important;
+	
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>ASCII value</title>
 </head>
 <body>
-    <h1>
-        Open console
-    </h1>
 
-    <script>
-        consol.log(" Hi I am consol screen");
+<center>
+<h1>Keyboard keys</h1>
+	<!--- Create Canvas element --->
+	<canvas id="myCanvas" width="500" height="="300></canvas>
+	<div id="d1"></div>
+<h4>
+	<b class="text-danger">NOTE : </b> PRESS ANY KEYBOARD KEY 
+</h4>
 
-        var first_name = "Leo"
-        console.log(first_name);
-
-        var last_name = "Kumawat"
-        consol.log(last_name);
-
-        var full_name = first_name.concat(last_name);
-        console.log(full_name);
-
-        var length_of_full_name = full_name.length
-        console.log(length_of_full_name);
-
-        var name_one = "Akshay"
-        consle.log(name_one);
-        var replace_name = name_one.replace("Akshay , Kavin");
-        console.log(replace_name);
-
-        var capital_name = "Rockey";
-        var making_lower_case = capital_name.toLowerCase();
-        console.log(making_lower_case);
-
-        var small_name = "john"
-        var making_lower_case = small_name.toUpperCase();
-        console.log(making_lower_case);
-
-        var square_root = Math.sqrt(16);
-        console.log(square_root);
-
-        var maximum_number = Math.max(15, 10);
-        console.log(maximum_number);
-
-        var minimum_number = Math.min(15,10);
-        consle.log(minimum_number);
-
-        var power_eg1 = Math.pow(4, 2);
-        console.log(power_eg1);
-
-        var power_eg2 = Math.pow(4, 2);
-        console.log(power_eg2);
-
-    </script>
+</center>
+<script src="main.js">
+</script>
 </body>
+</html>
